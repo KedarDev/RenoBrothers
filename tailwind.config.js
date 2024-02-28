@@ -9,9 +9,10 @@ export default {
         tertiary: "#FFF"
       },
       screens: {
-        mobile: "390px",
-        tablet: "750px",
-        desktop: "1440px"
+        "mobile": "393px",
+        "tablet": "690px",
+        "desktop": "1680px",
+        xs: "450px",
       }
     },
   },

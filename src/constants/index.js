@@ -1,5 +1,5 @@
 
-const navLink = [
+const navLinks = [
     {
       id: "about",
       title: "About",
@@ -22,4 +22,4 @@ const navLink = [
 
   ];
 
-export {navLink, services, Gallery};
+export {navLinks, services, Gallery};
