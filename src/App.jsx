@@ -8,13 +8,14 @@ import Videos from "./components/Videos";
 import Qoute from "./components/Qoute";
 import Contact from "./components/Contact";
 import RenoSupport from "./components/RenoSupport";
-
+import Navbar2 from "./components/Navbar2";
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-tertiary">
-        <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
+        <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center p-1">
+          {/* <Navbar /> */}
+          <Navbar2 />
           {/* <BeforeNAfter /> */}
         </div>
         {/* <Qoute /> */}
