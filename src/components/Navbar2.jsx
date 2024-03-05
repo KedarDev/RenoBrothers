@@ -36,7 +36,7 @@ const Navbar = () => {
             className="mobile:w-[200px] mobile:ml-[-40px] tablet:h-[35px]  tablet:w-[180px] laptop:w-[80%] laptop:h-[50%] justify-center items-center"
           />
         </Link>
-        <a href="">
+        <a  className="w-fit" href="">
           <img
             className="tablet:flex mobile:hidden hidden  relative laptop:w-[90%] tablet:w-[110px] w-20   h-8  object-contain"
             src={FreeEstButton}

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Black+Ops+One:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Redacted+Script:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:wght@200;400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -52,5 +52,33 @@
     #434343,
     #000000
   ); 
+}
 
+.section {
+ @apply grid place-items-center;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+p {
+  @apply mt-1.5 text-sm;
+}
+
+.clip-hidden {
+  clip-path: ellipse(0 0 at 0% 0%);
+  opacity: 0;
+}
+.clip-visible {
+  clip-path: ellipse(1750px 1750px at 0% 0%);
+}
+
+#back,
+#forward {
+  @apply  absolute  z-[5] -translate-y-2/4 text-black hover:scale-125 cursor-pointer duration-[0.4s] ease-out px-0 py-2.5 border-0 top-2/4;
+}
+
+.content {
+  @apply text-[aliceblue] absolute w-full z-[5] text-center backdrop-blur-[2px] duration-[1s] px-0 py-[15px] left-0 bottom-0;
+  background: #ffffff22;
 }
