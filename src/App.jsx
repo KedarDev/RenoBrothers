@@ -16,10 +16,9 @@ const App = () => {
         <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center p-1">
           {/* <Navbar /> */}
           <Navbar2 />
-          <BeforeNAfter  className="w-cover h-screen"/>
+          <BeforeNAfter />
         </div>
-        {/* <Qoute /> */}
-        {/* <About /> */}
+        <About />
         {/* <OurServices /> */}
         {/* <Gallery /> */}
         {/* <Videos /> */}

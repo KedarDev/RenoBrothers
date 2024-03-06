@@ -44,14 +44,14 @@ const BeforeNAfter = () => {
 
 
   return (
-    <div className=' section w-cover h-[600px] rounded-xl shadow-lg overflow-hidden bg-white'>
-      <div className='w-[80%] h-[600px] relative'>
+    <div className=' section w-full h-[600px] rounded-xl shadow-lg overflow-hidden justify-center align-top content-center place-content-center bg-white'>
+      <div className='w-[100%] h-[600px] relative '>
         {sliderContent.map((slider, i) => {
           return (
             <img src={slider.img} 
             key={i} 
             alt="slideImg" 
-            className={`w-full h-[600px] absolute object-cover inset-0 duration-[2.5s] ease-out transition-[clip-path]
+            className={`w-full h-[600px]  absolute object-cover inset-0 duration-[2.5s] ease-out transition-[clip-path]
             ${ i === active ? "clip-visible" : "clip-hidden"}`} />
           );
         })}
