@@ -1,10 +1,10 @@
 import React from 'react'
 import Qoute from './Qoute'
-import { swiggle, theRenoText } from '../assets'
+import { swiggle, theRenoText, FreeEstButton } from '../assets'
 
 const About = () => {
   return (
-    <div className=' w-full h-screen grid'>
+    <div className=' w-full h-screen grid relative'>
       <Qoute />
       <h1 className='flex pl-10'>About Us</h1>
       <img className='w-[110px] flex h-3 ml-9' src={swiggle} alt="swiggle" />
@@ -18,6 +18,9 @@ const About = () => {
       also know the dilemma faced by most of you while opting for the appropriate interior designer and constructor. 
       While it comes to constructing a property.
       </p>
+      <button className='flex justify-center '>
+        <img src={FreeEstButton} alt="estbutton" />
+      </button>
       </div>
     </div>
   )

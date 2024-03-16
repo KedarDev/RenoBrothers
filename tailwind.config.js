@@ -21,7 +21,18 @@ export default {
         'desktop': '1280px',
         // => @media (min-width: 1280px) { ... }
 
-      }
+      },
+      animation: {
+        ["infinite-slider"]: "infinitsSlider 20s linear infinite"
+      },
+      keyframes: {
+        infiniteSlider: {
+          "0%": {transform: "translatex(0" },
+          "100%" : {
+            transform: "translateX(calc(-250px * 5))",
+          },
+        },
+      },
     },
   },
   plugins: [],

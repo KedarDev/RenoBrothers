@@ -19,8 +19,8 @@ const App = () => {
           <BeforeNAfter />
         </div>
         <About />
-        {/* <OurServices /> */}
-        {/* <Gallery /> */}
+        <OurServices />
+        <Gallery />
         {/* <Videos /> */}
         {/* <RenoSupport /> */}
         <div className="relative z-0">

@@ -6,9 +6,11 @@ import image10 from "../assets/image10.png";
 import image11 from "../assets/image11.png";
 import swiggle from "../assets/swiggle.png";
 import theRenoText from "../assets/theRenoText.png";
+import FreeEstButton from "../assets/FreeEstButton.png";
 
 
 export {
+    FreeEstButton,
     theRenoText,
     swiggle,
     image10,

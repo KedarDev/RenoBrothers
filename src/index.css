@@ -61,6 +61,12 @@
 h1 {
   @apply text-2xl font-bold;
 }
+
+h2 {
+   font-family: "Black Ops One";
+   font-size: xx-large;
+} 
+
 p {
   @apply mt-1.5 text-sm;
 }

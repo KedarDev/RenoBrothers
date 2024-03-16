@@ -1,4 +1,4 @@
-import  {image10, image11}  from "../assets";
+import { image10, image11 } from "../assets";
 
 const sliderContent = [
   {
@@ -20,26 +20,62 @@ const sliderContent = [
 ];
 
 const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "services",
-      title: "Services",
-    },
-    {
-      id: "Gallery",
-      title: "Gallery",
-    },
-  ];
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "Gallery",
+    title: "Gallery",
+  },
+];
 
-  const services = [
+const services = [
+  {
+    id: "Carpentry",
+    title: "CARPENTRY",
+    img: image10,
+  },
+  {
+    id: "Roofing",
+    title: "ROOFING",
+    img: image11,
+  },
+  {
+    id: "Legal Basement",
+    title: "LEGAL BASEMENT",
+    img: image10,
+  },
+  {
+    id: "Flooring",
+    title: "FLOORING",
+    img: image11,
+  },
+];
 
-  ];
+const gallery = [
+  {
+    id: "img1",
+    img: image10,
+  },
+  {
+    id: "img2",
+    img: image11,
+  },
+  {
+    id: "img3",
+    img: image10,
+  },
+  {
+    id: "img4",
+    img: image11,
+  },
+]
 
-  const Gallery = [
+const Gallery = [];
 
-  ];
-
-export {navLinks, services, Gallery, sliderContent};
+export { navLinks, services, Gallery, sliderContent };
