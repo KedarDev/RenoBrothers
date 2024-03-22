@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX}  w-full flex items-center py-1 Sticky-top-0 z-20  bg-tertiary`}
+      className={`${styles.paddingX}  w-full right-0 flex items-center py-1 top-0 z-20 fixed  bg-tertiary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -28,7 +28,7 @@ const Navbar = () => {
           <img
             src={RenovatorLogo}
             alt="logo"
-            className=" mobile:w-[100px] mobile:ml-[-30px] justify-center items-center mobile:p-0 mobile:m-0"
+            className=" mobile:w-[100px] mobile:ml-[px] justify-center items-center mobile:p-0 mobile:m-0"
           />
           <img
             src={RenoLogo}

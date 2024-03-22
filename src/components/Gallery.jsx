@@ -1,5 +1,6 @@
 import React from "react";
 import { swiggle } from "../assets";
+import InfiniteSlider from "./InfiniteSlider";
 
 const Gallery = () => {
   return (
@@ -10,8 +11,8 @@ const Gallery = () => {
         src={swiggle}
         alt="swiggle"
       />
-      <div className=" grid grid-col-1 bg-primary w-full h-screen mt-[100px] rounded-[10%]">
-
+      <div className=" grid grid-col-1 bg-primary w-full h-[700px] mt-[100px] rounded-[10%]">
+        <InfiniteSlider />
       </div>
     </div>
   );

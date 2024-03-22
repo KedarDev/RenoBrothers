@@ -15,14 +15,14 @@ const App = () => {
       <div className="relative z-0 bg-tertiary">
         <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center p-1">
           {/* <Navbar /> */}
-          <Navbar2 />
+          <Navbar2 className="" />
           <BeforeNAfter />
         </div>
         <About />
         <OurServices />
         <Gallery />
-        {/* <Videos /> */}
-        {/* <RenoSupport /> */}
+        <Videos />
+        <RenoSupport />
         <div className="relative z-0">
           {/* <Contact /> */}
         </div>

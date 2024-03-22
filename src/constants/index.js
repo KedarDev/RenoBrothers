@@ -1,4 +1,7 @@
-import { image10, image11 } from "../assets";
+import { image10, image11, video1, video2, video3, video4 } from "../assets";
+
+
+
 
 const sliderContent = [
   {
@@ -74,8 +77,88 @@ const gallery = [
     id: "img4",
     img: image11,
   },
+];
+
+const gallerySlide = [
+  {
+    id: "img1",
+    img: image10,
+  },
+  {
+    id: "img2",
+    img: image11,
+  },
+  {
+    id: "img3",
+    img: image10,
+  },
+  {
+    id: "img4",
+    img: image11,
+  },
+];
+
+const slides = [
+  {
+    id: "img1",
+    img: image10,
+  },
+  {
+    id: "img2",
+    img: image11,
+  },
+  {
+    id: "img3",
+    img: image10,
+  },
+  {
+    id: "img4",
+    img: image11,
+  },
+];
+
+const videos = [
+  {
+    id: "video1",
+    video: video1,
+  },
+  {
+    id: "video2",
+    video: video2,
+  },
+  {
+    id: "video3",
+    video: video3,
+  },
+  {
+    id: "video4",
+    video: video4,
+  },
+];
+
+const steps = [
+    {
+      id: 'Intro',
+      message: "Hi, it's Reno your Messenger Assisstent. Whats your name?",
+      end: true,
+    },
+    {
+      id: 'Email',
+      message: "Hi, {previousValue}, Whats your email?",
+      end: true,
+    },
+    {
+      id: 'Number',
+      message: "Whats your number?",
+      end: true,
+    },
+    {
+      id: 'Message',
+      message: "Whats your your message?",
+      end: true,
+    },
 ]
 
-const Gallery = [];
 
-export { navLinks, services, Gallery, sliderContent };
+
+export { steps, navLinks, services, gallery, gallerySlide, sliderContent, slides, videos };
