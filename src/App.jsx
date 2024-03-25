@@ -5,7 +5,6 @@ import About from "./components/About";
 import OurServices from "./components/OurServices";
 import Gallery from "./components/Gallery";
 import Videos from "./components/Videos";
-import Qoute from "./components/Qoute";
 import Contact from "./components/Contact";
 import RenoSupport from "./components/RenoSupport";
 import Navbar2 from "./components/Navbar2";
@@ -22,7 +21,7 @@ const App = () => {
         <OurServices />
         <Gallery />
         <Videos />
-        <RenoSupport />
+        {/* <RenoSupport /> */}
         <div className="relative z-0">
           {/* <Contact /> */}
         </div>

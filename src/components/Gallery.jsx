@@ -1,6 +1,7 @@
 import React from "react";
 import { swiggle } from "../assets";
 import InfiniteSlider from "./InfiniteSlider";
+import { hardHat } from "../assets";
 
 const Gallery = () => {
   return (

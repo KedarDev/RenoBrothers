@@ -10,7 +10,7 @@ const ServiceCard = () => {
           <li key={service.id}>
             <h2   className=" w-full flex justify-center m-2 font-extrabold">{service.title}</h2>
             <img className=" w-full h-[300px] rounded-[10%]" src={service.img} alt=""></img>
-            <button className=" w-[100px] flex bg-black rounded-lg text-center text-primary mt-6 m-2 py-2 mx-auto border-[2px] border-primary">READ MORE</button>
+            <button className=" w-[100px] flex bg-black rounded-lg text-center text-white p-1 mt-6 m-2 py-2 mx-auto border-[2px] border-black">READ MORE</button>
           </li>
         </div>
       ))}

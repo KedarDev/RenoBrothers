@@ -8,12 +8,14 @@ import swiggle from "../assets/swiggle.png";
 import theRenoText from "../assets/theRenoText.png";
 import FreeEstButton from "../assets/FreeEstButton.png";
 import RenoAssisstent from "../assets/RenoAssisstent.png";
+import hardHat from "../assets/hardHat.png";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 import video3 from "../assets/video3.mp4";
 import video4 from "../assets/video4.mp4";
 
 export {
+    hardHat,
     RenoAssisstent,
     video1,
     video2,

@@ -48,9 +48,6 @@ const Videos = () => {
             ))}
           </motion.div>
         </div>
-        {/* <video className='' controls>
-        <source className='' src={video1} />
-      </video> */}
       </div>
     </div>
   );
