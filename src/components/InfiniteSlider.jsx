@@ -11,7 +11,7 @@ const Slider = () => {
     const duplicatedSlides = [...slides, ...slides];
 
     return (
-        <div className="relative w-full  overflow-hidden mt-[18%]  h-screen">
+        <div className="relative w-full  overflow-hidden mt-[18%] mobile:p-10  h-screen">
             {/* Wrapping div for seamless looping */}
             <motion.div
                 className="flex"
@@ -26,9 +26,9 @@ const Slider = () => {
             >
                 {/* Render duplicated slides */}
                 {duplicatedSlides.map((slide, index) => (
-                    <div key={index} className="flex-shrink-0 gap-5 m-2 rounded-[20%]" style={{ width: `${100 / slides.length}%` }}>
-                        <div className="flex flex-col items-center justify-center h-full text-6xl">
-                            <img className='w-full h-[400px] rounded-[2%]' src={slide.img} alt="" />
+                    <div key={index} className="flex-shrink-0 gap-[100px] m-2 rounded-[20%]" style={{ width: `${100 / slides.length}%` }}>
+                        <div className="flex mobile:w-full   flex-col items-center justify-center h-full text-6xl">
+                            <img className='  w-full h-[400px] rounded-[2%]' src={slide.img} alt="" />
                         </div>
                     </div>
                 ))}

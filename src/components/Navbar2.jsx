@@ -14,9 +14,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX}  w-full right-0 flex items-center py-1 top-0 z-20 fixed  bg-tertiary`}
+      className={`${styles.paddingX} desktop:w-full desktop:p-[0%] tablet:w-full tablet:h-[100px] tablet:mx-auto  w-full right-0 flex items-center py-1 top-0 z-20 fixed  bg-tertiary`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className=" desktop:w-full desktop:p-0 w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -28,17 +28,17 @@ const Navbar = () => {
           <img
             src={RenovatorLogo}
             alt="logo"
-            className=" mobile:w-[100px] mobile:ml-[px] justify-center items-center mobile:p-0 mobile:m-0"
+            className=" mobile:w-[150px] mobile:p-4 mobile:mt-3 fixed tablet:mt-9 tablet:left-0 tablet:top-[-35px] tablet:p-2 tablet:w-[150px]  mobile:ml-[px] justify-center items-center"
           />
           <img
             src={RenoLogo}
             alt="textLogo"
-            className="mobile:w-[200px] mobile:ml-[-40px] tablet:h-[35px]  tablet:w-[180px] laptop:w-[80%] laptop:h-[50%] justify-center items-center"
+            className="mobile:w-[250px] mobile:h-[50px] tablet:w-full tablet:ml-[20%] mobile:ml-[130px]  tablet:h-[35px]   laptop:w-[80%] laptop:h-[50%] justify-center items-center"
           />
         </Link>
         <a  className="w-fit" href="">
           <img
-            className="tablet:flex mobile:hidden hidden  relative laptop:w-[90%] tablet:w-[110px] w-20   h-8  object-contain"
+            className=" tablet:w-full tablet:ml-5  tablet:p-[1px] tablet:flex mobile:hidden hidden  relative laptop:w-[90%] w-20 h-8 object-contain"
             src={FreeEstButton}
             alt="FreeEstButton"
           />
@@ -49,7 +49,7 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title ? "text-primary" : "text-black"
-              } hover:text-primary text-[18px] sm:text-[18px] mr-[-40px] justify-end font-medium cursor-pointer`}
+              } hover:text-primary  tablet:text-[20px] text-[18px]  mr-[-40px] justify-end font-medium cursor-pointer`}
               onClick={() => {
                 setActive(Link.title);
               }}
@@ -62,7 +62,7 @@ const Navbar = () => {
           <img
             src={toggle ? closeMenu : menu}
             alt="menu"
-            className="w-[35px] h-[35px] object-contain cursor-pointer"
+            className=" mobile:w-[50px]  mobile:h-[50px] w-[35px] h-[35px] object-contain cursor-pointer"
             onClick={() => {
               setToggle(!toggle);
             }}

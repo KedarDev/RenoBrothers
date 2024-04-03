@@ -42,10 +42,9 @@ const BeforeNAfter = () => {
     }, 1000);
   }, [active]);
 
-
   return (
-    <div className=' section w-full h-[600px] rounded-xl shadow-lg overflow-hidden justify-center align-top content-center place-content-center bg-white'>
-      <div className='w-[100%] h-[600px] relative '>
+    <div className='desktop:w-full laptop:ml-[0%] laptop:w-[1200px] tablet:w-[800px] section mobile:w-[498px] w-full h-[600px] mobile:h-screen rounded-xl shadow-lg overflow-hidden justify-center align-top content-center place-content-center bg-white mobile:mt-[-70px]'>
+      <div className=' desktop:w-[1100px] w-[100%] h-[600px]  relative '>
         {sliderContent.map((slider, i) => {
           return (
             <img src={slider.img} 

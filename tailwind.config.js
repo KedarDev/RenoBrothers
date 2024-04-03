@@ -9,7 +9,7 @@ export default {
         tertiary: "#FFF"
       },
       screens: {
-        'mobile': "320px" ,
+        'mobile': {max: "320px"} ,
         // => @media (min-width: 320px) { ... }
 
         'tablet': '640px',

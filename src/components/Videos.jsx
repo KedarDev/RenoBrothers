@@ -9,15 +9,15 @@ const Videos = () => {
   const videoSlides = [...videos, ...videos];
 
   return (
-    <div className=" relative justify-center w-full h-screen mt-[50%]">
-      <h1 className=" relative flex justify-center">Videos</h1>
+    <div className=" desktop:left-[0%] tablet:left-[75px] relative justify-center w-full h-screen mt-[50%]">
+      <h1 className=" mobile:ml-[62%] relative flex justify-center">Videos</h1>
       <img
-        className="relative w-[110px] flex h-3  ml-[44%]"
+        className="relative w-[110px] flex h-3 desktop:ml-[47%] mobile:ml-[63%] tablet:ml-[42%]  ml-[44%]"
         src={swiggle}
         alt="swiggle"
       />
-      <div className=" grid grid-col-1 bg-primary w-full h-[700px] mt-[50px] rounded-[10%]">
-        <div className="relative w-full  overflow-hidden mt-[18%]  h-screen">
+      <div className=" grid grid-col-1 bg-primary w-full mobile:w-[500px] h-[700px] mt-[50px] rounded-[10%]">
+        <div className="relative w-full mobile:w-  overflow-hidden mt-[18%]  h-screen">
           {/* Wrapping div for seamless looping */}
           <motion.div
             className="flex"
